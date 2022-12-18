@@ -1,0 +1,325 @@
+/*Productos*/
+header {
+    background: url(imagenes/bg.jpg);
+    padding: 20px 0;
+} 
+
+.caja-header{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #f8ed52;
+    text-decoration: underline;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: dashed;
+    border-top-width: 10px;
+}
+
+.productos li:hover{
+    border-color:#f8ed52;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/*Contactos*/
+
+.contenedor-contactos {
+    width:  940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+} 
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2) rotate(7deg);
+    -webkit-transform: scale(1.2) rotate(7deg);
+    -moz-transform: scale(1.2) rotate(7deg);
+    -ms-transform: scale(1.2) rotate(7deg);
+    -o-transform: scale(1.2) rotate(7deg);
+}
+
+.tablas {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+tfoot {
+    background: #555555;
+    color: red;
+    font-weight: bold;
+}
+
+/*Home*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    display: flex;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+/*video*/
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+} 
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+/*Pseudo Elementos - altera la primer letra de un elemento*/
+.titulo-principal::first-letter {
+    font-weight: bold;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: calc(40% - (26px));
+    float: left;
+    /*arriba - derecha - abajo - izquierda*/
+    margin: 0 20px 20px 0;
+    box-shadow: -10px 10px #f8ed52;
+
+}
+
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales {
+    padding: 3em 0;
+}
+
+.contenido-diferenciales {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.items:before {
+    content: "☆";
+}
+
+/* nth selecciona el numero de item anidado */
+.items:nth-child(1) {
+    font-weight: bold;
+}
+
+.imagen-diferenciales {
+    width: 60%;
+    box-shadow: 10px 10px #f8ed52;
+}
+
+
+
+
+
+ /*medias*/
+
+ @media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .caja-header, .principal, .mapa-contenido, .contenido-diferenciales {
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales {
+        width: 100%;
+    }
+ }
